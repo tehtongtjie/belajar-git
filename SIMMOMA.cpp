@@ -228,6 +228,7 @@ void tampilkanTugasDanPosttest()
     if (jumlahMataKuliah <= 0)
     {
         cout << "Belum ada mata kuliah yang ditambahkan..." << endl;
+        cout << "Silahkan ditambah terlebih dahulu..." << endl;
         system("pause");
         return;
     }
